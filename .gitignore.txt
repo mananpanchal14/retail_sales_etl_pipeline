@@ -1,0 +1,46 @@
+# =========================
+# JetBrains / PyCharm
+# =========================
+.idea/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Operating system files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Local secrets / credentials
+# =========================
+.env
+.env.*
+*.pem
+*.key
+
+# =========================
+# Raw Olist dataset
+# =========================
+data/*.csv
+data/processed/*.csv
+!data/processed/final_orders.csv
+
+# Kaggle downloaded archives
+*.zip
